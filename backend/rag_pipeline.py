@@ -47,13 +47,8 @@ class NISTRagPipeline:
         self._model = SentenceTransformer(BI_ENCODER_MODEL)
         logger.info(f"[RAG] Loaded Bi-Encoder embedding model: {BI_ENCODER_MODEL}")
 
-        try:
-            self._reranker = CrossEncoder(CROSS_ENCODER_MODEL)
-            logger.info(f"[RAG] Loaded Cross-Encoder re-ranker: {CROSS_ENCODER_MODEL}")
-        except Exception as exc:
-            logger.warning(f"[RAG] Re-ranker loading failed ({exc}). Falling back to single-stage vector search.")
-            self._reranker = None
-
+        # Lazy load CrossEncoder only when needed to conserve RAM
+        self._reranker = None
         self._client = chromadb.PersistentClient(
             path=str(CHROMA_DIR),
             settings=Settings(anonymized_telemetry=False),
