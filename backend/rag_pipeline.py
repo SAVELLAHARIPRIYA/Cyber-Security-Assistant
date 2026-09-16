@@ -8,7 +8,6 @@ from typing import Optional
 
 # Disable ChromaDB telemetry to suppress posthog log noise
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
-
 import chromadb
 import pandas as pd
 from chromadb.config import Settings
