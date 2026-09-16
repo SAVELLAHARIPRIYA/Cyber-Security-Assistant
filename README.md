@@ -54,6 +54,7 @@ We queried internal **assets, vulnerabilities, business services, regional threa
 
 ---
 
+
 ## Supporting Question 2 — Where It Goes Wrong
 
 1. **CVE Identifier Formatting or Catalog Discrepancies:**
