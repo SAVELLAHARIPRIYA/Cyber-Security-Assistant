@@ -1,0 +1,61 @@
+asset_id,asset_name,asset_type,environment,owner_team,business_service,internet_exposed,criticality,edr_installed,vendor,product,version,ip_address,location,last_updated,stale_asset,assigned_owner
+ASSET-001,PayGateway-UAE-Prod-01,Application Server,production,Payments,Digital Payment Processing,yes,5,no,Citrix,NetScaler ADC,13.1-37.38,185.220.10.1,UAE-DC1,2024-01-15,no,Ali Hassan
+ASSET-002,PayGateway-UAE-Prod-02,Application Server,production,Payments,Digital Payment Processing,yes,5,yes,Citrix,NetScaler ADC,13.1-37.38,185.220.10.2,UAE-DC1,2024-01-15,no,Ali Hassan
+ASSET-003,IdentityAPI-UAE-Prod-01,API Server,production,Identity,Identity Verification Service,yes,5,no,Fortinet,FortiOS SSL VPN,7.4.0,185.220.10.3,UAE-DC1,2023-12-01,no,Priya Sharma
+ASSET-004,IdentityAPI-UAE-Prod-02,API Server,production,Identity,Identity Verification Service,yes,5,yes,Fortinet,FortiOS SSL VPN,7.4.0,185.220.10.4,UAE-DC1,2023-12-01,no,Priya Sharma
+ASSET-005,CardProc-UAE-Prod-01,Application Server,production,Payments,Card Tokenization Service,yes,5,yes,F5 Networks,BIG-IP,14.1.4,185.220.10.5,UAE-DC1,2024-02-20,no,Omar Al-Rashid
+ASSET-006,CardProc-UAE-Prod-02,Application Server,production,Payments,Card Tokenization Service,yes,5,yes,F5 Networks,BIG-IP,14.1.4,185.220.10.6,UAE-DC1,2024-02-20,no,Omar Al-Rashid
+ASSET-007,APIGateway-UAE-Prod-01,Network Appliance,production,Platform,Merchant Payment API,yes,4,yes,Palo Alto Networks,PAN-OS,11.1.0,185.220.10.7,UAE-DC1,2024-03-01,no,Ravi Kumar
+ASSET-008,APIGateway-UAE-Prod-02,Network Appliance,production,Platform,Merchant Payment API,yes,4,yes,Palo Alto Networks,PAN-OS,11.1.0,185.220.10.8,UAE-DC1,2024-03-01,no,Ravi Kumar
+ASSET-009,WebLB-UAE-Prod-01,Load Balancer,production,IT Ops,Customer Portal,yes,4,yes,HAProxy,HAProxy,2.6.1,185.220.10.9,UAE-DC1,2024-04-01,no,Farid Al-Mansouri
+ASSET-010,WebLB-UAE-Prod-02,Load Balancer,production,IT Ops,Customer Portal,yes,4,yes,HAProxy,HAProxy,2.6.1,185.220.10.10,UAE-DC1,2024-04-01,no,Farid Al-Mansouri
+ASSET-011,VPNGateway-UAE-Prod-01,VPN Gateway,production,IT Ops,Internal IT Services,yes,4,no,Cisco,IOS XE,17.3.4a,185.220.10.11,UAE-DC1,2023-11-01,no,Farid Al-Mansouri
+ASSET-012,VPNGateway-UAE-Prod-02,VPN Gateway,production,IT Ops,Internal IT Services,yes,4,yes,Cisco,IOS XE,17.3.4a,185.220.10.12,UAE-DC1,2023-11-01,no,Farid Al-Mansouri
+ASSET-013,EmailGateway-UAE-Prod-01,Mail Server,production,Platform,Email Notification Service,yes,3,yes,Microsoft,Exchange Server,2019 CU12,185.220.10.13,UAE-DC1,2024-01-10,no,Sara Al-Hamdan
+ASSET-014,WebPortal-UAE-Prod-01,Web Server,production,Web,Customer Portal,yes,3,yes,Apache,HTTP Server,2.4.51,185.220.10.14,UAE-DC1,2024-02-01,no,Sara Al-Hamdan
+ASSET-015,WebPortal-UAE-Prod-02,Web Server,production,Web,Customer Portal,yes,3,yes,Apache,HTTP Server,2.4.51,185.220.10.15,UAE-DC1,2024-02-01,no,Sara Al-Hamdan
+ASSET-016,FraudEngine-UAE-Prod-01,Application Server,production,Risk,Fraud Detection Engine,no,5,no,Apache,Log4j / Spring Boot,2.14.1,10.10.1.16,UAE-DC1,2022-08-01,no,
+ASSET-017,FraudEngine-UAE-Prod-02,Application Server,production,Risk,Fraud Detection Engine,no,5,no,Apache,Log4j / Spring Boot,2.14.1,10.10.1.17,UAE-DC1,2022-08-01,no,
+ASSET-018,CoreDB-UAE-Prod-01,Database Server,production,Data,Digital Payment Processing,no,5,yes,Microsoft,SQL Server,2019,10.10.1.18,UAE-DC1,2024-03-15,no,Arun Nair
+ASSET-019,CoreDB-UAE-Prod-02,Database Server,production,Data,Digital Payment Processing,no,5,yes,Microsoft,SQL Server,2019,10.10.1.19,UAE-DC1,2024-03-15,no,Arun Nair
+ASSET-020,KYCServer-UAE-Prod-01,Application Server,production,Compliance,KYC / AML Processing,no,5,yes,JetBrains,TeamCity,2023.05.3,10.10.1.20,UAE-DC1,2023-10-01,no,Layla Al-Zaabi
+ASSET-021,SettlementSrv-UAE-Prod-01,Application Server,production,Finance,Settlement Processing,no,5,yes,Oracle,WebLogic,12.2.1.4,10.10.1.21,UAE-DC1,2023-09-01,no,Nasser Al-Kaabi
+ASSET-022,SettlementSrv-UAE-Prod-02,Application Server,production,Finance,Settlement Processing,no,5,yes,Oracle,WebLogic,12.2.1.4,10.10.1.22,UAE-DC1,2023-09-01,no,Nasser Al-Kaabi
+ASSET-023,DomainController-UAE-01,Directory Service,production,IT Ops,Internal IT Services,no,5,yes,Microsoft,Active Directory,Windows Server 2019,10.10.1.23,UAE-DC1,2024-01-20,no,Farid Al-Mansouri
+ASSET-024,DomainController-UAE-02,Directory Service,production,IT Ops,Internal IT Services,no,5,yes,Microsoft,Active Directory,Windows Server 2019,10.10.1.24,UAE-DC1,2024-01-20,no,Farid Al-Mansouri
+ASSET-025,TxnMonitor-UAE-Prod-01,Application Server,production,Risk,Transaction Monitoring,no,4,yes,Elastic,Elasticsearch,7.17.5,10.10.1.25,UAE-DC1,2024-02-10,no,Mona Al-Ali
+ASSET-026,SIEM-UAE-Prod-01,Security Appliance,production,Security,Logging & SIEM,no,4,yes,Splunk,Splunk Enterprise,9.0.3,10.10.1.26,UAE-DC1,2024-03-01,no,Khalid Al-Sayed
+ASSET-027,AppServer-UAE-Prod-01,Application Server,production,Mobile,Customer Mobile App Backend,no,4,yes,Node.js,Express,18.12.0,10.10.1.27,UAE-DC1,2024-04-05,no,Zaid Al-Farsi
+ASSET-028,AppServer-UAE-Prod-02,Application Server,production,Mobile,Customer Mobile App Backend,no,4,yes,Node.js,Express,18.12.0,10.10.1.28,UAE-DC1,2024-04-05,no,Zaid Al-Farsi
+ASSET-029,ComplianceSrv-UAE-01,Application Server,production,Compliance,Compliance Reporting Platform,no,3,yes,ManageEngine,ServiceDesk Plus,14.2,10.10.1.29,UAE-DC1,2023-06-01,yes,
+ASSET-030,LogServer-UAE-Prod-01,Log Server,production,Security,Logging & SIEM,no,3,yes,Graylog,Graylog,5.1.2,10.10.1.30,UAE-DC1,2024-01-05,no,Khalid Al-Sayed
+ASSET-031,DevApp-IND-01,Application Server,development,DevOps,DevOps CI/CD Pipeline,no,2,no,JetBrains,TeamCity,2023.05.3,10.20.1.31,IND-DC1,2023-11-01,no,Vikram Singh
+ASSET-032,DevApp-IND-02,Application Server,development,DevOps,DevOps CI/CD Pipeline,no,2,no,Jenkins,Jenkins,2.387.3,10.20.1.32,IND-DC1,2023-10-01,no,Vikram Singh
+ASSET-033,DevDB-IND-01,Database Server,development,Data,DevOps CI/CD Pipeline,no,2,no,MySQL,MySQL,8.0.32,10.20.1.33,IND-DC1,2024-01-01,no,Deepa Nair
+ASSET-034,DevDB-IND-02,Database Server,development,Data,DevOps CI/CD Pipeline,no,2,no,PostgreSQL,PostgreSQL,15.2,10.20.1.34,IND-DC1,2024-01-01,no,Deepa Nair
+ASSET-035,CICD-IND-01,Build Server,development,DevOps,DevOps CI/CD Pipeline,no,2,no,GitLab,GitLab CE,16.1.0,10.20.1.35,IND-DC1,2023-12-15,no,Rahul Dev
+ASSET-036,TestSrv-IND-01,Test Server,development,QA,DevOps CI/CD Pipeline,no,1,no,Apache,Tomcat,9.0.65,10.20.1.36,IND-DC1,2023-08-01,yes,
+ASSET-037,TestSrv-IND-02,Test Server,development,QA,DevOps CI/CD Pipeline,no,1,no,Apache,Tomcat,9.0.65,10.20.1.37,IND-DC1,2023-08-01,yes,
+ASSET-038,DevAPI-IND-01,API Server,development,DevOps,DevOps CI/CD Pipeline,no,2,no,Python,FastAPI,0.95.1,10.20.1.38,IND-DC1,2024-02-01,no,Ankit Patel
+ASSET-039,DevApp-IND-03,Application Server,development,Payments,DevOps CI/CD Pipeline,no,2,no,Apache,Log4j / Spring Boot,2.14.1,10.20.1.39,IND-DC1,2022-12-01,yes,
+ASSET-040,DevTools-IND-01,Application Server,development,DevOps,DevOps CI/CD Pipeline,no,2,no,Atlassian,Confluence,7.19.0,10.20.1.40,IND-DC1,2023-07-01,no,Rahul Dev
+ASSET-041,DevTools-IND-02,Application Server,development,DevOps,DevOps CI/CD Pipeline,no,2,no,Atlassian,Jira,9.4.0,10.20.1.41,IND-DC1,2023-07-01,no,Rahul Dev
+ASSET-042,DevMonitor-IND-01,Monitor Server,development,DevOps,Logging & SIEM,no,1,no,Grafana,Grafana,9.5.2,10.20.1.42,IND-DC1,2023-09-01,no,Ankit Patel
+ASSET-043,DevSec-IND-01,Security Scanner,development,Security,DevOps CI/CD Pipeline,no,1,no,Nessus,Tenable Nessus,10.5.0,10.20.1.43,IND-DC1,2024-01-01,no,Priya Dev
+ASSET-044,DockerHost-IND-01,Container Host,development,DevOps,DevOps CI/CD Pipeline,no,2,no,Docker,Docker Engine,23.0.3,10.20.1.44,IND-DC1,2024-03-01,no,Vikram Singh
+ASSET-045,DevProxy-IND-01,Proxy Server,development,IT Ops,DevOps CI/CD Pipeline,no,1,no,Squid,Squid Proxy,5.7,10.20.1.45,IND-DC1,2023-05-01,yes,
+ASSET-046,StagingApp-UAE-01,Application Server,staging,DevOps,DevOps CI/CD Pipeline,no,2,yes,Apache,HTTP Server,2.4.51,10.30.1.46,UAE-DC2,2024-02-01,no,Ravi Kumar
+ASSET-047,StagingApp-UAE-02,Application Server,staging,DevOps,DevOps CI/CD Pipeline,no,2,yes,Nginx,Nginx,1.23.4,10.30.1.47,UAE-DC2,2024-02-01,no,Ravi Kumar
+ASSET-048,StagingDB-UAE-01,Database Server,staging,Data,DevOps CI/CD Pipeline,no,2,yes,MySQL,MySQL,8.0.32,10.30.1.48,UAE-DC2,2024-02-01,no,Arun Nair
+ASSET-049,StagingDB-UAE-02,Database Server,staging,Data,DevOps CI/CD Pipeline,no,2,yes,PostgreSQL,PostgreSQL,15.2,10.30.1.49,UAE-DC2,2024-02-01,no,Arun Nair
+ASSET-050,StagingAPI-UAE-01,API Server,staging,Platform,DevOps CI/CD Pipeline,no,2,yes,Python,FastAPI,0.95.1,10.30.1.50,UAE-DC2,2024-03-01,no,Ravi Kumar
+ASSET-051,StagingAPI-UAE-02,API Server,staging,Platform,DevOps CI/CD Pipeline,no,2,yes,Node.js,Express,18.12.0,10.30.1.51,UAE-DC2,2024-03-01,no,Ravi Kumar
+ASSET-052,QATest-UAE-01,Test Server,staging,QA,DevOps CI/CD Pipeline,no,1,yes,Selenium,Selenium Grid,4.9.0,10.30.1.52,UAE-DC2,2023-12-01,no,Mona Al-Ali
+ASSET-053,QATest-UAE-02,Test Server,staging,QA,DevOps CI/CD Pipeline,no,1,yes,Selenium,Selenium Grid,4.9.0,10.30.1.53,UAE-DC2,2023-12-01,no,Mona Al-Ali
+ASSET-054,QATest-UAE-03,Test Server,staging,QA,DevOps CI/CD Pipeline,no,1,no,Apache,HTTP Server,2.4.38,10.30.1.54,UAE-DC2,2022-10-01,yes,
+ASSET-055,SMSGateway-UAE-Prod-01,Application Server,production,Identity,SMS / OTP Notification Service,yes,4,yes,Openfire,Openfire XMPP,4.7.4,185.220.10.55,UAE-DC1,2023-08-01,no,Priya Sharma
+ASSET-056,AnalyticsSrv-UAE-Prod-01,Application Server,production,Data,Analytics & BI Platform,no,2,yes,Apache,Spark,3.3.0,10.10.1.56,UAE-DC1,2024-01-01,no,Arun Nair
+ASSET-057,BackupSrv-UAE-Prod-01,Backup Server,production,IT Ops,Internal IT Services,no,4,yes,Veeam,Veeam Backup,12.0,10.10.1.57,UAE-DC1,2024-04-01,no,Farid Al-Mansouri
+ASSET-058,KYCServer-UAE-Prod-02,Application Server,production,Compliance,KYC / AML Processing,no,5,yes,JetBrains,TeamCity,2023.05.3,10.10.1.58,UAE-DC1,2023-10-01,no,Layla Al-Zaabi
+ASSET-059,PrintSrv-UAE-Office-01,Print Server,production,IT Ops,Internal IT Services,no,2,no,Microsoft,Windows Print Spooler,Windows Server 2016,10.10.2.59,UAE-OFFICE,2021-01-01,yes,
+ASSET-060,ReconSrv-UAE-Prod-01,Application Server,production,Finance,Reconciliation Service,no,4,yes,Oracle,WebLogic,12.2.1.4,10.10.1.60,UAE-DC1,2023-09-01,no,Nasser Al-Kaabi

@@ -1,0 +1,31 @@
+id,cve_id,nist_control_id,control_family,remediation_hint,priority,effort_days
+REM-001,CVE-2023-4966,SI-2,System and Information Integrity,Apply Citrix hotfix CTX579459 immediately; terminate all active sessions; rotate session tokens,critical,1
+REM-002,CVE-2024-21762,SI-2,System and Information Integrity,Upgrade FortiOS to 7.4.2+ or disable SSL VPN; apply Fortinet advisory FG-IR-24-015,critical,2
+REM-003,CVE-2024-3400,SI-2,System and Information Integrity,Apply PAN-OS patch; enable Threat Prevention subscription; check for compromise using Palo Alto indicators,critical,1
+REM-004,CVE-2021-44228,SI-2,System and Information Integrity,Upgrade Log4j to 2.17.1+; set LOG4J_FORMAT_MSG_NO_LOOKUPS=true as interim; audit all Java applications,critical,3
+REM-005,CVE-2022-1388,SI-2,System and Information Integrity,Apply F5 BIG-IP security patch K23605346; block iControl REST access from untrusted networks,critical,1
+REM-006,CVE-2023-20198,SI-2,System and Information Integrity,Disable HTTP server feature on all internet-facing IOS XE; apply Cisco advisory cisco-sa-iosxe-webui-privesc,critical,1
+REM-007,CVE-2023-46604,RA-5,Risk Assessment,"Upgrade ActiveMQ to 5.15.16+, 5.16.7+, 5.17.6+, or 5.18.3+; block port 61616 externally",critical,1
+REM-008,CVE-2022-26134,SI-2,System and Information Integrity,Upgrade Confluence to patched version; restrict access to Confluence; check for webshells post-patch,critical,2
+REM-009,CVE-2023-42793,SA-22,System and Services Acquisition,Upgrade TeamCity to 2023.05.4+; disable guest login; rotate all build tokens and service accounts,critical,2
+REM-010,CVE-2020-1472,AC-2,Access Control,Apply Microsoft KB4557222; enforce secure channel signing; monitor Netlogon event 5829 for legacy clients,critical,1
+REM-011,CVE-2023-28252,SI-2,System and Information Integrity,Apply April 2023 Patch Tuesday cumulative update; monitor for CLFS driver exploit activity,high,3
+REM-012,CVE-2021-26855,IR-4,Incident Response,Apply Exchange CU and patch; run MSERT scanner; check for webshells in OWA directories,critical,1
+REM-013,CVE-2023-32315,SI-2,System and Information Integrity,Upgrade Openfire to 4.7.5+ or 4.6.8+; block admin console from internet; reset all admin credentials,critical,1
+REM-014,CVE-2023-27350,RA-5,Risk Assessment,Apply PaperCut patch; enable allowlist for server IP; review print logs for anomalous commands,critical,1
+REM-015,CVE-2024-1709,SI-2,System and Information Integrity,Apply ConnectWise ScreenConnect update; enforce MFA; audit remote session logs immediately,critical,1
+REM-016,CVE-2023-35078,IR-4,Incident Response,Apply Ivanti EPMM patch; assume compromise if unpatched; reset all user credentials and review API logs,critical,1
+REM-017,CVE-2022-47966,SA-22,System and Services Acquisition,Upgrade ManageEngine product; rotate SAML certificates; audit authentication logs for pre-patch access,critical,2
+REM-018,CVE-2023-23397,AC-2,Access Control,Apply Microsoft security update; block outbound SMB (445); add Protected Users security group members,high,2
+REM-019,CVE-2022-41082,SI-2,System and Information Integrity,Apply Exchange November 2022 SU; use EMS URL rewrite mitigation if immediate patching not possible,high,2
+REM-020,CVE-2021-34527,SA-22,System and Services Acquisition,Disable Print Spooler service on non-print servers; apply KB5005010; restrict Point and Print policy,high,1
+REM-021,CVE-2022-30190,IR-4,Incident Response,Disable MSDT URL protocol; apply Microsoft patch; block .diagcab files at email gateway,high,1
+REM-022,CVE-2023-48788,RA-5,Risk Assessment,Upgrade FortiClientEMS; restrict EMS access to internal networks only; review SQL Server audit logs,critical,2
+REM-023,CVE-2021-27065,IR-4,Incident Response,Apply Exchange patch; scan for webshells; run Microsoft MSERT; check OWA and ECP directories,high,1
+REM-024,CVE-2022-40684,AC-2,Access Control,Apply Fortinet patch; restrict admin interface to trusted IPs; review admin API access logs,critical,1
+REM-025,CVE-2023-2868,SA-22,System and Services Acquisition,Replace affected ESG hardware (Barracuda-mandated); do not simply patch; treat as assumed breach,critical,5
+REM-026,CVE-2022-26809,SC-7,System and Communications Protection,Apply Windows RPC patch KB5012170; block TCP port 445 at perimeter; restrict RPC to trusted segments,high,1
+REM-027,CVE-2022-38023,AC-2,Access Control,Apply Windows Netlogon patch; enforce secure RPC; monitor event IDs 5827-5830 for violations,high,2
+REM-028,CVE-2023-44487,SC-7,System and Communications Protection,Apply HTTP/2 server patches; enable rate limiting; consider WAF rules for RST flood patterns,high,2
+REM-029,CVE-2022-22963,SI-2,System and Information Integrity,Upgrade Spring Cloud Function to 3.1.7+ or 3.2.3+; remove Spring Expression Language if unused,critical,1
+REM-030,CVE-2022-0847,SI-2,System and Information Integrity,"Upgrade Linux kernel to 5.16.11+, 5.15.25+, or 5.10.102+; apply distribution security updates",high,1

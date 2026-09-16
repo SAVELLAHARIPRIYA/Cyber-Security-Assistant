@@ -1,0 +1,114 @@
+vuln_id,asset_id,cve_id,cvss_score,exploit_available,patch_available,days_open,severity,description,first_detected
+VULN-001,ASSET-001,CVE-2023-4966,9.4,yes,yes,180,critical,Citrix Bleed: unauthenticated session token theft on payment gateway,2026-03-19
+VULN-002,ASSET-001,CVE-2022-26134,9.8,yes,yes,210,critical,Atlassian Confluence OGNL injection found in payment gateway,2026-02-17
+VULN-003,ASSET-002,CVE-2023-4966,9.4,yes,yes,180,critical,Citrix Bleed on secondary payment gateway — load-balanced cluster,2026-03-19
+VULN-004,ASSET-003,CVE-2024-21762,9.6,yes,no,45,critical,Fortinet SSL VPN OOB write — RCE on Identity API endpoint,2026-08-01
+VULN-005,ASSET-003,CVE-2022-40684,9.8,yes,yes,90,critical,Fortinet admin auth bypass on identity verification API,2026-06-17
+VULN-006,ASSET-004,CVE-2024-21762,9.6,yes,no,45,critical,Fortinet SSL VPN RCE on secondary identity API,2026-08-01
+VULN-007,ASSET-005,CVE-2022-1388,9.8,yes,yes,90,critical,F5 BIG-IP iControl REST unauthenticated RCE on card processing server,2026-06-17
+VULN-008,ASSET-005,CVE-2022-41082,8.8,yes,yes,120,high,Exchange ProxyNotShell RCE found in additional scan,2026-05-18
+VULN-009,ASSET-006,CVE-2022-1388,9.8,yes,yes,90,critical,F5 BIG-IP RCE on secondary card processing server,2026-06-17
+VULN-010,ASSET-007,CVE-2024-3400,10.0,yes,yes,30,critical,PAN-OS GlobalProtect OS command injection,2026-08-16
+VULN-011,ASSET-007,CVE-2023-20198,10.0,yes,yes,60,critical,Cisco IOS XE Web UI privilege escalation found in dual-vendor stack,2026-07-17
+VULN-012,ASSET-008,CVE-2024-3400,10.0,yes,yes,30,critical,PAN-OS GlobalProtect RCE on secondary API gateway,2026-08-16
+VULN-013,ASSET-011,CVE-2023-20198,10.0,yes,yes,120,critical,Cisco IOS XE privilege escalation on VPN gateway,2026-05-18
+VULN-014,ASSET-012,CVE-2023-20198,10.0,yes,yes,120,critical,Cisco IOS XE privilege escalation on secondary VPN gateway,2026-05-18
+VULN-015,ASSET-013,CVE-2021-26855,9.1,yes,yes,540,critical,Exchange ProxyLogon SSRF — email gateway pre-auth RCE,2025-03-24
+VULN-016,ASSET-013,CVE-2021-27065,7.8,yes,yes,540,high,Exchange ProxyLogon file write post-auth — chained with ProxyLogon,2025-03-24
+VULN-017,ASSET-016,CVE-2021-44228,10.0,yes,no,890,critical,Log4Shell RCE on fraud detection engine — unpatched since 2021,2024-04-08
+VULN-018,ASSET-016,CVE-2023-28252,7.8,yes,yes,60,high,Windows CLFS driver privilege escalation on fraud engine,2026-07-17
+VULN-019,ASSET-017,CVE-2021-44228,10.0,yes,no,890,critical,Log4Shell on secondary fraud detection engine — same unpatched version,2024-04-08
+VULN-020,ASSET-018,CVE-2022-38023,8.1,yes,yes,90,high,Netlogon RPC elevation on core database server,2026-06-17
+VULN-021,ASSET-019,CVE-2022-38023,8.1,yes,yes,90,high,Netlogon RPC elevation on secondary database server,2026-06-17
+VULN-022,ASSET-020,CVE-2023-42793,9.8,yes,yes,60,critical,JetBrains TeamCity auth bypass allows build pipeline compromise,2026-07-17
+VULN-023,ASSET-021,CVE-2022-21984,8.8,yes,yes,120,high,Windows DNS Server RCE on settlement server,2026-05-18
+VULN-024,ASSET-023,CVE-2020-1472,10.0,yes,yes,180,critical,Zerologon domain controller compromise via Netlogon,2026-03-19
+VULN-025,ASSET-024,CVE-2020-1472,10.0,yes,yes,180,critical,Zerologon on secondary domain controller,2026-03-19
+VULN-026,ASSET-025,CVE-2023-44487,7.5,yes,yes,30,high,HTTP/2 Rapid Reset DDoS on transaction monitoring,2026-08-16
+VULN-027,ASSET-029,CVE-2022-47966,9.8,yes,yes,360,critical,ManageEngine SAML unauthenticated RCE — compliance server stale,2025-09-20
+VULN-028,ASSET-031,CVE-2023-42793,9.8,yes,yes,60,critical,JetBrains TeamCity auth bypass on dev app server,2026-07-17
+VULN-029,ASSET-032,CVE-2022-22963,9.8,yes,yes,180,critical,Spring Cloud Function SpEL injection on Jenkins build server,2026-03-19
+VULN-030,ASSET-033,CVE-2022-0847,7.8,yes,yes,300,high,Dirty Pipe Linux kernel privilege escalation on dev DB,2025-11-19
+VULN-031,ASSET-035,CVE-2022-26904,7.0,yes,yes,180,high,Windows User Profile Service privilege escalation on GitLab server,2026-03-19
+VULN-032,ASSET-036,CVE-2022-21975,4.7,no,yes,540,medium,Windows Hyper-V DoS on stale test server,2025-03-24
+VULN-033,ASSET-037,CVE-2022-21979,5.9,no,yes,540,medium,Exchange information disclosure on stale test server,2025-03-24
+VULN-034,ASSET-039,CVE-2021-44228,10.0,yes,no,890,critical,Log4Shell on dev app server — same unpatched binary as prod,2024-04-08
+VULN-035,ASSET-040,CVE-2022-26134,9.8,yes,yes,210,critical,Confluence OGNL injection on dev tools server,2026-02-17
+VULN-036,ASSET-055,CVE-2023-32315,9.8,yes,yes,90,critical,Openfire XMPP path traversal — SMS gateway unauthenticated admin access,2026-06-17
+VULN-037,ASSET-058,CVE-2023-42793,9.8,yes,yes,60,critical,JetBrains TeamCity auth bypass on secondary KYC server,2026-07-17
+VULN-038,ASSET-059,CVE-2021-34527,8.8,yes,yes,900,high,PrintNightmare RCE on stale print server — unpatched since 2021,2024-03-29
+VULN-039,ASSET-060,CVE-2022-21978,8.2,yes,yes,120,high,Exchange Server privilege escalation on reconciliation server,2026-05-18
+VULN-040,ASSET-009,CVE-2023-44487,7.5,yes,yes,30,high,HTTP/2 Rapid Reset DDoS vulnerability on web load balancer,2026-08-16
+VULN-041,ASSET-010,CVE-2023-44487,7.5,yes,yes,30,high,HTTP/2 Rapid Reset DDoS vulnerability on secondary load balancer,2026-08-16
+VULN-042,ASSET-014,CVE-2022-3786,7.5,no,yes,120,high,OpenSSL buffer overflow on web portal server,2026-05-18
+VULN-043,ASSET-015,CVE-2022-3786,7.5,no,yes,120,high,OpenSSL buffer overflow on secondary web portal,2026-05-18
+VULN-044,ASSET-022,CVE-2022-22029,8.1,yes,yes,90,high,Windows NFS Server RCE on settlement server 02,2026-06-17
+VULN-045,ASSET-026,CVE-2022-24521,7.8,yes,yes,60,high,Windows CLFS privilege escalation on SIEM,2026-07-17
+VULN-046,ASSET-027,CVE-2021-4034,7.8,yes,yes,400,high,Linux polkit pkexec privilege escalation on app server,2025-08-11
+VULN-047,ASSET-028,CVE-2021-4034,7.8,yes,yes,400,high,Linux polkit pkexec on secondary app server,2025-08-11
+VULN-048,ASSET-030,CVE-2022-36537,7.5,yes,yes,180,high,ZK Framework information disclosure on log server,2026-03-19
+VULN-049,ASSET-034,CVE-2022-0847,7.8,yes,yes,300,high,Dirty Pipe Linux kernel LPE on dev postgres server,2025-11-19
+VULN-050,ASSET-038,CVE-2022-22963,9.8,yes,yes,180,critical,Spring Cloud SpEL injection on dev API server,2026-03-19
+VULN-051,ASSET-041,CVE-2022-0669,7.2,yes,yes,120,high,GoAnywhere authentication bypass on Jira server,2026-05-18
+VULN-052,ASSET-042,CVE-2023-24880,5.4,no,yes,60,medium,SmartScreen bypass on dev monitor server,2026-07-17
+VULN-053,ASSET-043,CVE-2022-34713,7.8,yes,yes,90,high,Windows MSDT RCE on security scanner,2026-06-17
+VULN-054,ASSET-044,CVE-2022-21975,4.7,no,yes,120,medium,Hyper-V DoS on Docker container host,2026-05-18
+VULN-055,ASSET-045,CVE-2022-21979,5.9,no,yes,540,medium,Exchange information disclosure on dev proxy,2025-03-24
+VULN-056,ASSET-046,CVE-2023-24932,6.7,no,yes,60,medium,Secure Boot bypass on staging app server,2026-07-17
+VULN-057,ASSET-047,CVE-2022-22715,7.8,yes,yes,120,high,Named Pipe File System LPE on staging nginx,2026-05-18
+VULN-058,ASSET-048,CVE-2022-21981,7.8,yes,yes,90,high,CLFS driver LPE on staging DB server,2026-06-17
+VULN-059,ASSET-049,CVE-2022-22026,8.8,yes,yes,90,high,CSRSS LPE on staging postgres server,2026-06-17
+VULN-060,ASSET-050,CVE-2022-21984,8.8,yes,yes,120,high,Windows DNS RCE on staging API server,2026-05-18
+VULN-061,ASSET-051,CVE-2022-22034,7.8,yes,yes,120,high,Windows Graphics Component LPE on staging API,2026-05-18
+VULN-062,ASSET-052,CVE-2022-21990,8.8,yes,yes,180,high,Remote Desktop Client RCE on QA test server,2026-03-19
+VULN-063,ASSET-053,CVE-2022-34722,9.8,yes,yes,180,critical,Windows LDAP RCE on QA test server 02,2026-03-19
+VULN-064,ASSET-054,CVE-2022-34718,9.8,yes,yes,540,critical,Windows TCP/IP RCE on stale QA test server,2025-03-24
+VULN-065,ASSET-056,CVE-2022-22038,8.1,yes,yes,90,high,RPC Runtime RCE on analytics server,2026-06-17
+VULN-066,ASSET-057,CVE-2022-22037,7.5,yes,yes,60,high,ALPC LPE on backup server,2026-07-17
+VULN-067,ASSET-059,CVE-2022-38028,7.8,yes,yes,500,high,Print Spooler LPE on stale print server (additional),2025-05-03
+VULN-068,ASSET-009,CVE-2022-21999,7.8,yes,yes,300,high,Windows Print Spooler LPE on load balancer,2025-11-19
+VULN-069,ASSET-023,CVE-2022-26923,8.8,yes,yes,120,high,Active Directory certifried domain escalation on DC01,2026-05-18
+VULN-070,ASSET-024,CVE-2022-26923,8.8,yes,yes,120,high,Active Directory certifried domain escalation on DC02,2026-05-18
+VULN-071,ASSET-025,CVE-2022-37969,7.8,yes,yes,90,high,CLFS privilege escalation on transaction monitor,2026-06-17
+VULN-072,ASSET-016,CVE-2022-30190,7.8,yes,yes,360,high,Follina MSDT RCE on fraud engine — layered attack surface,2025-09-20
+VULN-073,ASSET-017,CVE-2022-30190,7.8,yes,yes,360,high,Follina MSDT RCE on secondary fraud engine,2025-09-20
+VULN-074,ASSET-001,CVE-2023-23397,9.8,yes,yes,120,critical,Outlook NTLM hash theft via crafted email — discovered in prod scan,2026-05-18
+VULN-075,ASSET-003,CVE-2023-23397,9.8,yes,yes,120,critical,Outlook NTLM hash theft targeting identity API team endpoints,2026-05-18
+VULN-076,ASSET-018,CVE-2022-37977,6.5,no,yes,60,medium,LSASS denial of service on core DB server,2026-07-17
+VULN-077,ASSET-019,CVE-2022-37977,6.5,no,yes,60,medium,LSASS DoS on secondary core DB server,2026-07-17
+VULN-078,ASSET-026,CVE-2022-41125,7.8,yes,yes,90,high,CNG Key Isolation Service LPE on SIEM,2026-06-17
+VULN-079,ASSET-027,CVE-2022-22040,8.8,yes,yes,60,high,IIS Dynamic Compression DoS on mobile app server,2026-07-17
+VULN-080,ASSET-028,CVE-2022-22035,5.9,yes,yes,90,medium,PPTP protocol RCE on mobile app server 02,2026-06-17
+VULN-081,ASSET-060,CVE-2022-21977,3.3,no,yes,60,medium,Media Foundation information disclosure on recon server,2026-07-17
+VULN-082,ASSET-007,CVE-2022-22029,8.1,yes,yes,60,high,NFS Server RCE on API gateway 01 — additional vuln,2026-07-17
+VULN-083,ASSET-008,CVE-2022-21984,8.8,yes,yes,60,high,DNS Server RCE on API gateway 02,2026-07-17
+VULN-084,ASSET-011,CVE-2022-26809,9.8,yes,yes,180,critical,Windows RPC RCE on VPN gateway 01,2026-03-19
+VULN-085,ASSET-012,CVE-2022-26809,9.8,yes,yes,180,critical,Windows RPC RCE on VPN gateway 02,2026-03-19
+VULN-086,ASSET-029,CVE-2023-2868,9.8,yes,yes,240,critical,Barracuda ESG command injection on compliance server,2026-01-18
+VULN-087,ASSET-020,CVE-2022-47966,9.8,yes,yes,180,critical,ManageEngine SAML RCE on KYC server — additional tool installed,2026-03-19
+VULN-088,ASSET-055,CVE-2023-27350,9.8,yes,yes,60,critical,PaperCut auth bypass — SMS gateway runs PaperCut for PDF billing,2026-07-17
+VULN-089,ASSET-013,CVE-2022-41082,8.8,yes,yes,240,high,Exchange ProxyNotShell on email gateway,2026-01-18
+VULN-090,ASSET-014,CVE-2022-22054,7.8,no,yes,90,high,Windows Error Reporting LPE on portal server,2026-06-17
+VULN-091,ASSET-031,CVE-2023-48788,9.8,yes,yes,60,critical,Fortinet EMS SQL injection — dev app has FortiClient EMS connector,2026-07-17
+VULN-092,ASSET-022,CVE-2022-37975,8.1,yes,yes,180,high,Group Policy privilege escalation on settlement server 02,2026-03-19
+VULN-093,ASSET-021,CVE-2022-37980,7.8,yes,yes,120,high,DHCP Client LPE on settlement server 01,2026-05-18
+VULN-094,ASSET-032,CVE-2022-30221,8.8,yes,yes,180,high,Windows Graphics Component RCE on Jenkins build server,2026-03-19
+VULN-095,ASSET-033,CVE-2022-38034,4.3,no,yes,120,medium,Workstation Service LPE on dev DB 01,2026-05-18
+VULN-096,ASSET-034,CVE-2022-33679,8.1,no,yes,120,high,Kerberos info disclosure on dev postgres server,2026-05-18
+VULN-097,ASSET-040,CVE-2022-24512,6.3,yes,yes,180,medium,.NET RCE on Confluence dev tools,2026-03-19
+VULN-098,ASSET-041,CVE-2022-21985,5.5,no,yes,60,medium,Remote Access Mgr info disclosure on Jira server,2026-07-17
+VULN-099,ASSET-035,CVE-2022-41128,8.8,yes,yes,120,high,Windows Scripting Languages RCE on GitLab server,2026-05-18
+VULN-100,ASSET-058,CVE-2022-47966,9.8,yes,yes,180,critical,ManageEngine SAML RCE on secondary KYC server,2026-03-19
+VULN-101,ASSET-060,CVE-2022-41033,7.8,yes,yes,90,high,COM+ Event System LPE on recon server,2026-06-17
+VULN-102,ASSET-056,CVE-2022-26832,7.5,no,yes,60,high,.NET Framework DoS on analytics server,2026-07-17
+VULN-103,ASSET-057,CVE-2022-44699,5.5,no,yes,90,medium,SmartScreen bypass on backup server,2026-06-17
+VULN-104,ASSET-046,CVE-2022-44710,7.8,yes,yes,60,high,DirectX graphics kernel LPE on staging app 01,2026-07-17
+VULN-105,ASSET-047,CVE-2022-41049,5.4,no,yes,90,medium,Mark of the Web bypass on staging nginx,2026-06-17
+VULN-106,ASSET-048,CVE-2023-24941,9.8,yes,yes,90,critical,Windows NFS Server RCE on staging DB 01,2026-06-17
+VULN-107,ASSET-049,CVE-2023-28231,8.8,yes,yes,90,high,Windows DHCP Server RCE on staging DB 02,2026-06-17
+VULN-108,ASSET-050,CVE-2022-35770,6.5,no,yes,60,medium,NTLM spoofing on staging API 01,2026-07-17
+VULN-109,ASSET-051,CVE-2022-37976,8.8,yes,yes,90,high,AD CS privilege escalation on staging API 02,2026-06-17
+VULN-110,ASSET-052,CVE-2022-41073,7.8,yes,yes,120,high,Print Spooler LPE on QA test server 01,2026-05-18
+VULN-111,ASSET-053,CVE-2023-21768,7.8,yes,yes,90,high,AFDSYS privilege escalation on QA test server 02,2026-06-17
+VULN-112,ASSET-002,CVE-2023-23397,9.8,yes,yes,120,critical,Outlook NTLM hash theft on payment gateway 02,2026-05-18
+VULN-113,ASSET-004,CVE-2022-40684,9.8,yes,yes,90,critical,Fortinet admin auth bypass on identity API 02,2026-06-17

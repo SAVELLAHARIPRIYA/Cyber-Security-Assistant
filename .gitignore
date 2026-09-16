@@ -1,0 +1,21 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local vector store & cache
+.chromadb/
+.cache/
+
+# Local environment secrets
+.env
+
+# OS metadata
+.DS_Store
+Thumbs.db
